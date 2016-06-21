@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhouf.pacis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zhouf.pacis.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.SessionActivity"
+            android:label="@string/title_activity_session" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.AttractionActivity"
+            android:label="@string/title_activity_attraction" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.VenueActivity"
+            android:label="@string/title_activity_venue" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.Venue1Activity"
+            android:label="@string/title_activity_venue1" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.Venue2Activity"
+            android:label="@string/title_activity_venue1" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.Venue3Activity"
+            android:label="@string/title_activity_venue1" >
+        </activity>
+        <activity
+            android:name="com.zhouf.pacis.Venue4Activity"
+            android:label="@string/title_activity_venue1" >
+        </activity>
+    </application>
+
+</manifest>
